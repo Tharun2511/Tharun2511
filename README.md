@@ -105,7 +105,3 @@
 
 ---
 
-<p align="center">
-  <img src="https://i.imgur.com/4M7FG1f.gif" width="420px"/>
-</p>
-
