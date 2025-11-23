@@ -4,7 +4,7 @@
 </p>
 
 <h1 align="center">👋 Hi, I'm <span style="color:#00A2FF">Tharun Guduguntla</span></h1>
-<h3 align="center">Full Stack / Frontend Developer | React • Next.js • TypeScript</h3>
+<h3 align="center">Full Stack / Frontend Developer | React • Next.js • Node.js • TypeScript</h3>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=tharun2511&label=Profile%20Views&color=00A2FF&style=flat" />
