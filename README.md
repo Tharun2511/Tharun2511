@@ -1,6 +1,6 @@
 <!-- Banner -->
 <p align="center">
-  <img src="https://i.imgur.com/Z8bH0yN.gif" width="100%" />
+  <img src="./Banner.png" width="100%" />
 </p>
 
 <h1 align="center">👋 Hi, I'm <span style="color:#00A2FF">Tharun Guduguntla</span></h1>
