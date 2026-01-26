@@ -17,11 +17,7 @@
 ---
 
 ## 🔥 About Me
-💡 Software Developer with **hands-on experience in React, Next.js, Node.js & TypeScript**  
-⚡ Passionate about **high-performance UI, scalable systems & smart automation**  
-🧩 Skilled in **Mapbox GL, SurveyJS, microservices & cloud systems**  
-🏢 Currently working as **Software Developer at RADISE India**  
-🎯 I love building products that are **clean, fast, and meaningful**
+Enthusiastic Software Engineer with 2 years of hands-on experience designing and developing scalable, high-performance web and full-stack applications using React.js, Next.js, Node.js, and Nest.js. Proficient in building microservices, integrating complex APIs, and deploying reliable production systems. Strong foundation in Data Structures, Object-Oriented Programming, and Database Management. Passionate about creating robust, user-focused solutions and continuously improving engineering quality and efficiency.
 
 ---
 
