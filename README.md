@@ -1,145 +1,253 @@
-<!-- ====================== BANNER ====================== -->
+<!-- ╔══════════════════════════════════════════════════════════════════════╗ -->
+<!-- ║                          T H A R U N . a g e n t                       ║ -->
+<!-- ║          README rendered as an AI agent's system definition            ║ -->
+<!-- ╚══════════════════════════════════════════════════════════════════════╝ -->
+
 <p align="center">
   <img src="./Banner.png" width="100%" alt="Tharun Guduguntla — Full Stack & AI Engineer" />
 </p>
 
-<!-- ====================== HEADLINE ====================== -->
-<h1 align="center">Hi, I'm Tharun Guduguntla 👋</h1>
-
 <p align="center">
-  <a href="https://readme-typing-svg.demolab.com">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1200&color=00A2FF&center=true&vCenter=true&width=620&lines=Full+Stack+%2B+AI+Engineer;Building+production+RAG+%26+agentic+LLM+apps;React+%E2%80%A2+Next.js+%E2%80%A2+Node.js+%E2%80%A2+NestJS+%E2%80%A2+TypeScript;pgvector+%E2%80%A2+Hybrid+Search+%E2%80%A2+Function+Calling+%E2%80%A2+MCP;Turning+LLM+ideas+into+reliable+systems+%F0%9F%9A%80" alt="Typing SVG" />
-  </a>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1100&color=00A2FF&center=true&vCenter=true&width=720&height=45&lines=%3E+booting+tharun.agent...;%3E+loading+context%3A+2%2B+yrs+full-stack+%2B+AI;%3E+tools+ready%3A+RAG+%C2%B7+agents+%C2%B7+MCP+%C2%B7+pgvector;%3E+status%3A+online+%E2%80%94+ask+me+anything+%F0%9F%9F%A2" alt="boot sequence" />
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/tharun-guduguntla"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:gtharun2511@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://github.com/tharun2511"><img src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <img src="https://komarev.com/ghpvc/?username=tharun2511&label=Profile%20Views&color=00A2FF&style=for-the-badge" alt="Profile views" />
+  <a href="https://www.linkedin.com/in/tharun-guduguntla"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:gtharun2511@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://github.com/tharun2511"><img src="https://img.shields.io/badge/GitHub-171515?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
+  <img src="https://komarev.com/ghpvc/?username=tharun2511&label=context+loads&color=00A2FF&style=flat-square" alt="Profile views" />
+  <img src="https://img.shields.io/badge/based_in-Hyderabad_%F0%9F%87%AE%F0%9F%87%B3-1f2937?style=flat-square" alt="Location" />
 </p>
 
 ---
 
-## 🚀 About Me
+### `> system_prompt`
 
-```yaml
-name:        Tharun Guduguntla
-role:        Full Stack & AI Engineer
-location:    Hyderabad, India 🇮🇳
-experience:  2+ years building scalable web & full-stack systems
-focus:       Production LLM features — RAG, retrieval & agentic systems
-stack:       React · Next.js · Node.js · NestJS · TypeScript · Python
-mindset:     Build from first principles. Ship reliable. Keep learning.
+```python
+agent = Engineer(
+    name        = "Tharun Guduguntla",
+    role        = "Full Stack & AI Engineer",
+    experience  = "2+ years shipping scalable web & full-stack systems",
+    now         = "building production LLM features from first principles",
+    superpower  = "turning fuzzy LLM ideas into reliable, evaluated systems",
+)
+
+agent.system_prompt = """
+You are Tharun. You design front-to-back: clean React/Next.js UIs, typed
+Node/NestJS services, and Postgres data layers — then you make them think.
+You don't bolt an API onto a product and call it 'AI'. You build retrieval,
+tools, and evals from the ground up, because you've seen what breaks without them.
+Default to shipping. Measure before you trust. Keep learning, relentlessly.
+"""
 ```
 
-I'm a software engineer with **2+ years** designing and shipping scalable, high-performance
-web and full-stack applications. I'm now going deep on **AI engineering** — building
-production LLM features from first principles: retrieval-augmented generation (RAG),
-embeddings + vector search on **pgvector**, hybrid retrieval with re-ranking,
-function-calling agents, and a from-scratch **MCP server**.
+---
 
-Strong foundations in microservices, complex API integration, Data Structures, OOP,
-and database design — applied to robust, user-focused products.
+### `> render: how_i_build_llm_features()`
+
+> Not a stock diagram — this is the retrieval + agentic pipeline I actually wire up.
+
+```mermaid
+flowchart LR
+    Q([User Query]) --> EMB[Embed]
+    Q --> KW[Keyword / BM25]
+    EMB --> VEC[(pgvector)]
+    VEC --> RRF{{Hybrid Fusion · RRF}}
+    KW --> RRF
+    RRF --> RANK[Cross-Encoder Re-rank]
+    RANK --> CTX[[Grounded Context]]
+    CTX --> LLM((LLM + Tools))
+    LLM -->|function call| MCP[/Tools · MCP server/]
+    MCP -->|observation| LLM
+    LLM --> STREAM[[Stream · SSE]]
+    STREAM --> UI([React UI])
+    EVAL{{Eval Harness}} -.scores.-> LLM
+
+    classDef ai fill:#00A2FF,stroke:#0077cc,color:#fff,stroke-width:1px;
+    classDef data fill:#1f2937,stroke:#374151,color:#e5e7eb;
+    classDef io fill:#111827,stroke:#00A2FF,color:#fff;
+    class LLM,RANK,RRF,EMB ai;
+    class VEC,MCP,EVAL data;
+    class Q,UI,CTX,STREAM,KW io;
+```
 
 ---
 
-## 🧠 What I'm Building & Exploring
+### `> agent.tools` — what I expose to the world
 
-| Area | What it means in practice |
-|------|---------------------------|
-| 🔎 **RAG Systems** | Embeddings + pgvector, hybrid search with RRF, cross-encoder re-ranking |
-| 🤖 **Agentic LLMs** | Function calling / tool use, ReAct loops, LangChain & LangGraph (StateGraph, HITL, persistence) |
-| 🔌 **MCP** | A from-scratch Model Context Protocol server to expose tools to LLMs |
-| ⚡ **Streaming UIs** | Real-time token streaming over SSE for responsive LLM interfaces |
-| 📊 **Eval Harnesses** | Measuring quality — because shipping LLM features without evals is guessing |
-| 🌐 **Full Stack** | Next.js front-to-back, microservices, real-time apps (sockets, maps, live dashboards) |
+<table>
+<tr>
+<td width="50%" valign="top">
 
----
+#### 🤖 `ai_engineering`
+```jsonc
+{
+  "rag":        "embeddings + pgvector",
+  "retrieval":  "hybrid search · RRF · re-rank",
+  "agents":     "function-calling · ReAct loops",
+  "protocol":   "MCP server (from scratch)",
+  "orchestration": "LangChain · LangGraph",
+  "quality":    "eval harnesses · prompt eng",
+  "streaming":  "token-by-token over SSE",
+  "models":     "Groq · Gemini · Llama 3.3"
+}
+```
 
-## 🛠 Tech Stack
+</td>
+<td width="50%" valign="top">
 
-**Languages**
+#### 🧱 `full_stack`
+```jsonc
+{
+  "frontend":  "React · Next.js · Redux · Tailwind",
+  "backend":   "Node.js · NestJS · Express",
+  "api":       "REST · GraphQL · microservices",
+  "data":      "PostgreSQL · MongoDB",
+  "realtime":  "WebSockets · maps · live dashboards",
+  "cloud":     "AWS · Docker · Linux",
+  "lang":      "TypeScript · JavaScript · Python · Java",
+  "roots":     "DSA · OOP · system design"
+}
+```
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-
-**Frontend**
-
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Redux](https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![Material UI](https://img.shields.io/badge/MUI-007FFF?style=for-the-badge&logo=mui&logoColor=white)
-
-**Backend & APIs**
-
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
-
-**AI / LLM Engineering**
-
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![OpenAI](https://img.shields.io/badge/LLM%20Apps-412991?style=for-the-badge&logo=openai&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-
-`RAG` · `Embeddings & Vector Search (pgvector)` · `Hybrid Search + RRF` · `Cross-Encoder Re-ranking` · `Function Calling / Tool Use` · `Agentic (ReAct) Loops` · `MCP` · `LangChain / LangGraph` · `Streaming (SSE)` · `Eval Harnesses` · `Prompt Engineering` · `Groq · Gemini · Llama 3.3`
-
-**Databases & Cloud**
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
-
-**Tools**
-
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+</td>
+</tr>
+</table>
 
 ---
 
-## 📊 GitHub Stats
+### `> stack.index` — the retrieval index behind those tools
 
 <p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=tharun2511&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <br/>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+  <br/>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" />
+  <img src="https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white" />
+  <br/>
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+</p>
+
+---
+
+### `> agent.query(topic)` — expand a context window
+
+<details>
+<summary><b>🔎 "How do you stop a RAG app from hallucinating?"</b></summary>
+
+<br/>
+
+Retrieval quality first — garbage context guarantees garbage answers. I run
+**hybrid search** (semantic over pgvector + keyword/BM25), fuse with **RRF**, then
+**cross-encoder re-rank** the top candidates so the model only sees the strongest
+evidence. Then I make the model *cite* what it used, and I wrap the whole thing in an
+**eval harness** so "it feels better" becomes a number I can defend.
+
+</details>
+
+<details>
+<summary><b>🤖 "What's the hardest part of building an agent?"</b></summary>
+
+<br/>
+
+Not the function calling — it's the **loop**. Deciding when to call a tool, feeding
+observations back cleanly, knowing when to stop, and handling the model going off the
+rails. That's why I went deep on **LangGraph** (StateGraph, persistence, human-in-the-loop)
+and built an **MCP server from scratch** — to actually understand the contract between
+model and tools instead of trusting a black box.
+
+</details>
+
+<details>
+<summary><b>🧱 "Are you AI or full-stack?"</b></summary>
+
+<br/>
+
+Both — and that's the point. The hard part of production AI isn't the prompt; it's the
+**system around it**: the typed API, the streaming UI, the data layer, the failure modes.
+2+ years of shipping React/Next.js + Node/NestJS means I can take an LLM feature from
+idea to a thing real users can rely on — UI to vector store and back.
+
+</details>
+
+---
+
+### `> metrics.dashboard`
+
+<p align="center">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=tharun2511&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" />
   <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs?username=tharun2511&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=tharun2511&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=tharun2511&theme=tokyonight&hide_border=true" alt="Streak" />
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=tharun2511&theme=tokyonight&no-frame=true&margin-w=8&margin-h=8&column=7" alt="Trophies" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=tharun2511&theme=tokyo-night&hide_border=true&area=true&color=00A2FF&line=00A2FF&point=ffffff" alt="Activity Graph" />
+</p>
+
+<!-- SNAKE: requires the Platane/snk GitHub Action committing to an `output` branch.
+     Workflow file: .github/workflows/snake.yml  (setup steps at the bottom of this README) -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/tharun2511/tharun2511/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=tharun2511&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&margin-h=8&column=7" alt="Trophies" />
 </p>
 
 ---
 
-## 🎯 Current Focus
+### `> agent.status`
 
-- 🧩 **AI Fullstack Engineering** — production RAG, retrieval & agentic systems
-- 🔗 **Agent orchestration** with LangChain & LangGraph (StateGraph, persistence, HITL)
-- ⚙️ **Next.js + System Design** — scalable architecture, clean API boundaries
-- 📡 **Real-time apps** — sockets, maps, live dashboards
-- 🎨 **Clean, intuitive UI** development
-
----
-
-## 🤝 Let's Connect
+```diff
++ Open to:   Full Stack & AI Engineering roles · LLM product collaboration
++ Building:  RAG + agentic systems, eval-driven, shipped end to end
+! Mindset:   build from first principles · measure before you trust
+```
 
 <p align="center">
-  I'm open to <b>Full Stack & AI Engineering</b> roles and collaboration on LLM-powered products.
+  <a href="mailto:gtharun2511@gmail.com"><img src="https://img.shields.io/badge/Say_hello-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/tharun-guduguntla"><img src="https://img.shields.io/badge/Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 </p>
 
 <p align="center">
-  <a href="mailto:gtharun2511@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://www.linkedin.com/in/tharun-guduguntla"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://github.com/tharun2511"><img src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <sub><code>// end of context window — always building, always learning. ⭐</code></sub>
 </p>
 
-<p align="center"><i>⭐ From <a href="https://github.com/tharun2511">tharun2511</a> — always building, always learning.</i></p>
+<!-- ════════════════════════ SNAKE SETUP (delete this comment after) ═════════════════════════
+Create .github/workflows/snake.yml in the tharun2511/tharun2511 repo:
+
+name: Generate Snake
+on:
+  schedule: [{ cron: "0 */12 * * *" }]
+  workflow_dispatch:
+  push: { branches: [main] }
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions: { contents: write }
+    steps:
+      - uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: tharun2511
+          outputs: |
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+      - uses: crazy-max/ghaction-github-pages@v4
+        with: { target_branch: output, build_dir: dist }
+        env: { GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} }
+═══════════════════════════════════════════════════════════════════════════════════════════ -->
