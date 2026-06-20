@@ -30,7 +30,7 @@
 <!--START_SECTION:ai-note-->
 > _“Building AI features the honest way: measure quality before you trust it.”_
 
-<sub>🟢 auto-generated · powered by Llama 3.3 on Groq · updates daily via GitHub Actions</sub>
+<sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
 
 ---

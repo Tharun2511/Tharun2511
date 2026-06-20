@@ -23,7 +23,10 @@ START = "<!--START_SECTION:ai-note-->"
 END = "<!--END_SECTION:ai-note-->"
 
 GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
-MODEL = "llama-3.3-70b-versatile"
+# Groq deprecated llama-3.3-70b-versatile on 2026-06-17; gpt-oss-120b is the
+# recommended replacement. See https://console.groq.com/docs/models for the
+# current list if this ever stops working.
+MODEL = "openai/gpt-oss-120b"
 
 SYSTEM = (
     "You write a single short line (max ~18 words) for Tharun's GitHub profile. "
@@ -72,6 +75,11 @@ def generate_line() -> str:
         line = data["choices"][0]["message"]["content"].strip()
         line = line.strip('"').strip()
         return line or FALLBACK
+    except urllib.error.HTTPError as exc:
+        # Surface the real API error (e.g. decommissioned model, bad key) in the log.
+        body = exc.read().decode("utf-8", "replace") if exc.fp else ""
+        print(f"LLM HTTP {exc.code}: {body}; using fallback line.", file=sys.stderr)
+        return FALLBACK
     except (urllib.error.URLError, KeyError, ValueError) as exc:
         print(f"LLM call failed ({exc}); using fallback line.", file=sys.stderr)
         return FALLBACK
@@ -81,7 +89,7 @@ def build_block(line: str) -> str:
     return (
         f"{START}\n"
         f"> _“{line}”_\n\n"
-        f"<sub>\U0001f7e2 auto-generated · powered by Llama 3.3 on Groq · "
+        f"<sub>\U0001f7e2 auto-generated · powered by an LLM on Groq · "
         f"updates daily via GitHub Actions</sub>\n"
         f"{END}"
     )
