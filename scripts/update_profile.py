@@ -65,6 +65,9 @@ def generate_line() -> str:
         headers={
             "Authorization": f"Bearer {key}",
             "Content-Type": "application/json",
+            # Cloudflare in front of Groq returns 403 (error 1010) for the default
+            # "Python-urllib/x" agent, so present a normal browser-like User-Agent.
+            "User-Agent": "Mozilla/5.0 (compatible; profile-updater/1.0)",
         },
         method="POST",
     )
