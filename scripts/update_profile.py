@@ -51,7 +51,11 @@ def generate_line() -> str:
         {
             "model": MODEL,
             "temperature": 0.9,
-            "max_tokens": 60,
+            # gpt-oss is a reasoning model: it spends tokens "thinking" before the
+            # answer. Keep reasoning low and leave plenty of room, or the visible
+            # content comes back empty (truncated mid-reasoning).
+            "reasoning_effort": "low",
+            "max_completion_tokens": 1024,
             "messages": [
                 {"role": "system", "content": SYSTEM},
                 {"role": "user", "content": USER},
@@ -75,9 +79,20 @@ def generate_line() -> str:
     try:
         with urllib.request.urlopen(req, timeout=30) as resp:
             data = json.loads(resp.read().decode("utf-8"))
-        line = data["choices"][0]["message"]["content"].strip()
-        line = line.strip('"').strip()
-        return line or FALLBACK
+        choice = data["choices"][0]
+        content = (choice.get("message", {}).get("content") or "").strip()
+        # Defensively drop any <think>...</think> block some reasoning models emit.
+        content = re.sub(r"(?is)<think>.*?</think>", "", content).strip()
+        # Keep only the first non-empty line, unquoted.
+        line = next((l.strip().strip('"').strip() for l in content.splitlines() if l.strip()), "")
+        if not line:
+            print(
+                f"Empty content (finish_reason={choice.get('finish_reason')}); "
+                f"using fallback line.",
+                file=sys.stderr,
+            )
+            return FALLBACK
+        return line
     except urllib.error.HTTPError as exc:
         # Surface the real API error (e.g. decommissioned model, bad key) in the log.
         body = exc.read().decode("utf-8", "replace") if exc.fp else ""
