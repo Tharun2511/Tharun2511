@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“Balancing React UI latency with LLM response time feels like tuning a car engine while the road keeps changing.”_
+> _“Debugging vector retrieval while polishing UI feels like juggling two puzzles—one in embeddings, one in React state.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
