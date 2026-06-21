@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“Debugging vector retrieval while polishing UI feels like juggling two puzzles—one in embeddings, one in React state.”_
+> _“Balancing prompt engineering with API latency reminds me that clean abstractions win more than clever models.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
