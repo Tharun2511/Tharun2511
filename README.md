@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“RAG pipelines feel more satisfying when the prompt chain finally stops hallucinating and the UI stays snappy.”_
+> _“RAG pipelines feel smoother when the vector store and the UI share the same async mindset.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
