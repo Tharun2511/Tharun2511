@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“Building RAG pipelines feels like stitching together a puzzle where the missing piece is always a better prompt.”_
+> _“RAG pipelines feel like stitching puzzles together; every prompt tweak reveals a hidden edge case.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
