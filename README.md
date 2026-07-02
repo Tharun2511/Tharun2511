@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“Debugging vector stores feels like untangling a maze, but watching the retrieval finally click is pure joy.”_
+> _“Balancing prompt engineering with API latency reminds me that good AI feels like a well‑tuned full‑stack app.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
