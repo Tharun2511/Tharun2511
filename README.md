@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“Debugging vector stores while the UI flickers reminds me that seamless AI feels like balancing code and chaos.”_
+> _“Debugging prompt embeddings feels like untangling a maze, but the latency drop makes every extra millisecond worth it.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
