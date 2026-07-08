@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“Balancing vector search latency with React UI responsiveness feels like the real art of building usable RAG products.”_
+> _“Debugging vector similarity feels more satisfying than polishing UI, especially when the LLM finally respects the retrieval prompt.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
