@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“Debugging vector similarity feels more satisfying than polishing UI, especially when the LLM finally respects the retrieval prompt.”_
+> _“Balancing vector DB latency with UI responsiveness reminds me why RAG pipelines feel like full‑stack debugging on steroids.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
