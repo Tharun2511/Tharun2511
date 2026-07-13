@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“Balancing vector search latency with UI responsiveness feels like the hardest part of turning RAG pipelines into real products.”_
+> _“Debugging the prompt pipeline feels like tweaking a React hook—small changes, huge impact on the model’s behavior.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
