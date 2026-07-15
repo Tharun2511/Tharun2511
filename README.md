@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“Balancing vector retrieval latency with React’s reactivity feels like the most rewarding part of building RAG‑driven full‑stack apps.”_
+> _“Debugging LLM prompts feels like refactoring a React component—painful but oddly satisfying when the output finally aligns.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
