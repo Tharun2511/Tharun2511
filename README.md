@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“Balancing vector stores and UI state feels like a nightly puzzle, but the latency drop makes it worth it.”_
+> _“Debugging vector store latency while tweaking React hooks reminds me that performance feels like the only real art in AI‑full‑stack work.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
