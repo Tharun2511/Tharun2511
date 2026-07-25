@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“Optimizing the RAG pipeline feels like tuning a full‑stack app: every latency tweak counts as much as model precision.”_
+> _“Balancing vector DB latency with UI reactivity feels like the new art of full‑stack performance.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
