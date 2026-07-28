@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“Balancing vector stores and API latency reminds me why good schema design still matters in AI‑first apps.”_
+> _“Balancing prompt engineering with clean API design feels like the toughest part of turning RAG ideas into production-ready apps.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
