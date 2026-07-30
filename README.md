@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“RAG pipelines feel smoother when the vector store and the Next.js UI share the same async mindset.”_
+> _“Balancing prompt engineering with clean API design feels like threading a needle between creativity and reliability.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
