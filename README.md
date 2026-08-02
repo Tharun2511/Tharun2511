@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“Debugging token limits feels like tuning a car engine while the user watches the dashboard flicker.”_
+> _“Fine‑tuning prompts feels more like debugging than modeling, especially when the UI and the LLM must stay in sync.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
