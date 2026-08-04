@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“Debugging prompts feels like refactoring code—every tweak reveals a hidden edge case in the model’s logic.”_
+> _“Ragging data into context windows feels like stitching a puzzle together while the server hums.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
