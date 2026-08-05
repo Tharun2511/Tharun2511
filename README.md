@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“Ragging data into context windows feels like stitching a puzzle together while the server hums.”_
+> _“Debugging token limits feels like tuning a car engine—every millisecond counts when LLMs meet React.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
