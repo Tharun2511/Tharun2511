@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“Debugging token limits feels like tuning a car engine—every millisecond counts when LLMs meet React.”_
+> _“Debugging the RAG pipeline while the Next.js UI stalls—finally realized latency is my biggest model bug.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
