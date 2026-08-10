@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“Debugging the vector store while refactoring the Next.js UI reminds me that latency wins over flashiness every time.”_
+> _“Balancing latency and relevance, I keep tweaking the RAG pipeline while the UI reacts instantly.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
