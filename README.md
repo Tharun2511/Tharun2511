@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“Balancing latency and relevance, I keep tweaking the RAG pipeline while the UI reacts instantly.”_
+> _“Balancing prompt engineering and API latency feels like debugging a race condition in production.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
