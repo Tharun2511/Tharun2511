@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“Debugging vector stores feels like fine‑tuning a kitchen layout while the frontend UI silently watches the data.”_
+> _“Balancing prompt engineering with type safety feels like debugging the future, one RAG loop at a time.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
