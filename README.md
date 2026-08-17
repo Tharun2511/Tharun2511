@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“Debugging vector stores feels like tuning a piano while the LLM keeps improvising the melody.”_
+> _“Balancing prompt latency and UI responsiveness reminds me that elegant RAG pipelines are as much about timing as they are about model choice.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
