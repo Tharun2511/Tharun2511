@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“Balancing latency and context, I keep tweaking retrieval‑augmented pipelines while polishing the UI for seamless user flow.”_
+> _“Debugging prompts feels like refactoring code: both require clarity, edge‑case thinking, and a healthy dose of patience.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
