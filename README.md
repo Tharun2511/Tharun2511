@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“Debugging vector embeddings feels like tuning a guitar: the right tension makes the whole retrieval melody click.”_
+> _“Debugging vector stores feels like fine‑tuning a UI: the same patience, different data.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
