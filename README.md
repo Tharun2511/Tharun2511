@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“Balancing prompt engineering with clean API design feels like the hardest yet most rewarding part of full‑stack AI work.”_
+> _“Balancing prompt latency with UI responsiveness feels like juggling code and coffee—RAG pipelines thrive on that trade‑off.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
