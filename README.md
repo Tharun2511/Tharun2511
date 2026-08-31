@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“Balancing vector DB latency with React rendering feels like the hardest part of turning RAG pipelines into real‑world apps.”_
+> _“Debugging vector retrieval feels like tuning a radio: you hear the signal clearer with every small index tweak.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
