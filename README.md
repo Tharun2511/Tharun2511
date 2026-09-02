@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“Balancing React latency with LLM context windows reminds me that performance is always a trade‑off, not a feature.”_
+> _“Balancing vector search latency with prompt quality feels like the most rewarding full‑stack AI debugging session.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
