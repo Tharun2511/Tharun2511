@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“Debugging the prompt pipeline feels like fine‑tuning a full‑stack app—every missing token is a hidden bug.”_
+> _“Balancing prompt latency with React SSR feels like a constant trade‑off, but the RAG feedback loop finally clicks.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
