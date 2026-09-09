@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“Balancing prompt latency with React SSR feels like a constant trade‑off, but the RAG feedback loop finally clicks.”_
+> _“Balancing vector search latency with UI responsiveness reminds me why RAG pipelines need both solid indexing and smooth React state.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
