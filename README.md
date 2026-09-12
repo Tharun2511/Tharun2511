@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“Debugging a RAG pipeline feels like tuning a band: every component must stay in sync to hit the right note.”_
+> _“Balancing prompt engineering with API latency reminds me that elegant full‑stack design still starts with clear data flow.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
