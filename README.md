@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“Balancing prompt engineering with API latency reminds me that elegant full‑stack design still starts with clear data flow.”_
+> _“RAG pipelines feel smoother when the retrieval index lives next to the Next.js API, not in a separate service.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
