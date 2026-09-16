@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“Balancing prompt engineering with clean API design feels like the only way to keep RAG pipelines both reliable and maintainable.”_
+> _“Debugging a RAG pipeline while refactoring the Next.js UI reminds me that latency is the true user experience metric.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
