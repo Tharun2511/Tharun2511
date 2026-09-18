@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“Balancing vector embeddings with UI latency reminds me why clean contracts between Next.js and the LLM backend matter more than hype.”_
+> _“Balancing vector search latency with React UI reactivity makes every RAG prototype feel like a controlled experiment.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
