@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“Balancing vector search latency with React UI reactivity makes every RAG prototype feel like a controlled experiment.”_
+> _“Debugging a RAG pipeline feels like tuning a jazz trio—every component must improvise in sync.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
