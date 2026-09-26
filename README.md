@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“Debugging vector stores at midnight feels more satisfying than any UI polish I could ever ship.”_
+> _“Debugging prompt latency feels like fine‑tuning a React hook: subtle, iterative, and oddly satisfying when it finally clicks.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
