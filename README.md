@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“RAG pipelines feel like puzzle pieces; I keep tweaking prompts and APIs until the data finally talks back.”_
+> _“Balancing vector stores and API latency feels like debugging a UI while the model hallucinates its own documentation.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
