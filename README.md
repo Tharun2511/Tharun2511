@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“RAG pipelines feel smoother when I let the LLM surface context before the React UI ever touches the API.”_
+> _“Debugging prompt templates is more satisfying than fixing a CSS layout; both feel like fine‑tuning a conversation.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
