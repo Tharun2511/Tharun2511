@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“Debugging prompt leaks feels more satisfying than fixing a CSS bug; the stack finally aligns when the LLM respects context.”_
+> _“Balancing latency and context, I keep iterating RAG pipelines while polishing the Next.js UI for seamless AI interactions.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
