@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“Balancing latency and context, I keep iterating RAG pipelines while polishing the Next.js UI for seamless AI interactions.”_
+> _“Debugging a RAG pipeline while tweaking React state feels like juggling async promises and embeddings in perfect sync.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
