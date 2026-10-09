@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“Debugging a RAG pipeline while tweaking React state feels like juggling async promises and embeddings in perfect sync.”_
+> _“Debugging the RAG pipeline while the UI flickers, I realize latency wins over cleverness.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
