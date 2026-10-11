@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“Debugging the prompt pipeline feels like refactoring a React component—painful, but the latency drop is worth it.”_
+> _“Debugging the RAG pipeline while refactoring the Next.js UI reminds me that latency kills user trust.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
