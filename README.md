@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“Debugging prompt latency while wiring a Next.js UI into a Python‑driven RAG pipeline feels like the best kind of engineering puzzle.”_
+> _“Balancing prompt design and API latency feels like refactoring a monolith into a tidy micro‑service.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
