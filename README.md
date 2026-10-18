@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“RAG pipelines feel like puzzle pieces—glue them with Next.js and Python, then watch the model finally understand.”_
+> _“Debugging vector retrieval while refactoring the Next.js UI reminds me why end‑to‑end pipelines matter more than flashy models.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
