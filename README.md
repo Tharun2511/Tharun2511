@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“Debugging vector retrieval while refactoring the Next.js UI reminds me why end‑to‑end pipelines matter more than flashy models.”_
+> _“Debugging the prompt pipeline feels like refactoring a React component—every edge case reveals a hidden state bug.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
