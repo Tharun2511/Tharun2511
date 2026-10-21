@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“Balancing vector stores with React state feels like the only way to keep RAG pipelines both fast and debuggable.”_
+> _“Debugging the LLM prompt pipeline feels like tuning a React hook—tiny missteps cascade into silent failures.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
