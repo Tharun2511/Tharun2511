@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“Debugging the LLM prompt pipeline feels like tuning a React hook—tiny missteps cascade into silent failures.”_
+> _“Balancing latency and relevance, I keep tweaking RAG pipelines while React components silently wait for the next API response.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
