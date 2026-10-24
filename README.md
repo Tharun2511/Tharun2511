@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“Balancing vector stores and React state feels like debugging a conversation between two half‑awake developers.”_
+> _“Debugging the prompt pipeline is more satisfying than fixing a CSS glitch; both feel like fine‑tuning a conversation.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
