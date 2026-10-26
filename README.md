@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“Debugging a RAG pipeline at midnight feels like tuning a live orchestra of React UI, NestJS services, and LLM prompts.”_
+> _“Balancing vector search latency with React's reactivity reminds me why RAG pipelines feel like a full‑stack puzzle.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
