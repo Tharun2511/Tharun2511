@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“Balancing vector search latency with React's reactivity reminds me why RAG pipelines feel like a full‑stack puzzle.”_
+> _“Balancing prompt engineering with API latency feels like debugging a full‑stack app—every tweak reshapes the user experience.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
