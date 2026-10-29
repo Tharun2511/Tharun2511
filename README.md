@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“Debugging prompts feels like refactoring code—just slower, more conversational, and surprisingly satisfying when it finally works.”_
+> _“RAG pipelines feel smoother when the vector store lives next to the Next.js API, not in a separate cloud bucket.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
