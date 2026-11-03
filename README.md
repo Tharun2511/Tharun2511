@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“Debugging the LLM prompt pipeline feels like tuning a React component: subtle props, massive impact.”_
+> _“Debugging context windows feels like tuning a guitar—every token matters, and the right chord unlocks the melody.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
