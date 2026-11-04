@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“Debugging context windows feels like tuning a guitar—every token matters, and the right chord unlocks the melody.”_
+> _“Debugging prompts feels like refactoring code—every tweak reveals hidden assumptions and new edge cases.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
