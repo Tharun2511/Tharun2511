@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“Balancing vector stores and React state feels like juggling fire—perfect when the retrieval latency finally drops below 200 ms.”_
+> _“Balancing vector stores and API latency reminds me why clean schema design beats clever prompts every time.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
