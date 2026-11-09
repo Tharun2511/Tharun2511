@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“Balancing vector stores and API latency reminds me why clean schema design beats clever prompts every time.”_
+> _“Debugging a RAG pipeline feels like juggling state between React UI, NestJS services, and a finicky LLM.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
