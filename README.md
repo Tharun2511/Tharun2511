@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“Debugging token limits feels like tuning a car engine while the UI waits for the next page render.”_
+> _“Balancing vector search latency with UI responsiveness feels like the hardest part of turning RAG prototypes into real products.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
