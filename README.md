@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“RAG pipelines feel like assembling Lego bricks—every vector index and API call must click perfectly.”_
+> _“Balancing prompt latency with UI responsiveness feels like walking a tightrope, but that’s where real RAG magic happens.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
