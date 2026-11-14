@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“Balancing prompt latency with UI responsiveness feels like walking a tightrope, but that’s where real RAG magic happens.”_
+> _“Debugging vector embeddings feels like tuning a guitar—every tiny tweak reshapes the whole melody of the app.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
