@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“Balancing prompt engineering with clean API design feels like stitching a brain onto a well‑typed web app.”_
+> _“Debugging LLM prompts feels like chasing bugs in React—both need patience, context, and clear error messages.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
