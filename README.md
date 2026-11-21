@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“Balancing vector search latency with React UI smoothness feels like the most satisfying part of building RAG pipelines.”_
+> _“Debugging vector store latency while tweaking prompt templates reminds me why clean APIs matter more than model hype.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
