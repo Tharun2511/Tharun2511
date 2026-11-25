@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“Debugging vector embeddings feels like tuning a piano: every tweak reshapes the whole melody of the app.”_
+> _“Debugging LLM prompts feels like chasing bugs in React—every missing context reveals a hidden edge case.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
