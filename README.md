@@ -28,7 +28,7 @@
 > **This README is, quite literally, a small AI app I built. It's the work, demonstrating itself.**
 
 <!--START_SECTION:ai-note-->
-> _“Debugging vector stores feels like tuning a compass—precision matters more than flash when building RAG pipelines.”_
+> _“Balancing vector search latency with prompt relevance feels like the best part of stitching RAG pipelines into full‑stack apps.”_
 
 <sub>🟢 auto-generated · powered by an LLM on Groq · updates daily via GitHub Actions</sub>
 <!--END_SECTION:ai-note-->
